@@ -19,8 +19,13 @@ body{
     background-color: var(--mainColour ) !important;
    
 }
-.navbar a , .inputSearch {
+.navbar a {
     color: var(--white) !important;
+}
+.inputSearch {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -169,4 +174,4 @@ input[type="search"]:focus,
     margin-bottom:0;
   }
   
-  Resources
+/* footer css End */
