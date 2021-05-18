@@ -64,9 +64,8 @@ input[type="search"]:focus,
 
 
 .feature-img{
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+  width: 200px;
+  max-height: 200px;
 }
 
 

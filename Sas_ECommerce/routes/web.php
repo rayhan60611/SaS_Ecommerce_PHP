@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,5 @@ use App\Http\Controllers\homeController;
 */
 
 Route::get('/', [homeController::class , 'homePage']);
+
+Route::get('/products', [ProductController::class , 'productsController']);
