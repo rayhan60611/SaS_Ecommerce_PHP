@@ -64,13 +64,14 @@ input[type="search"]:focus,
 
 
 .feature-img{
-  width: 200px;
+  width: 100%;
   max-height: 200px;
+
 }
 
 
 .card {
-    border: 2px #da3232 solid ;
+    border: 1px #da3232 solid ;
 }
 
 /* .footer-bottom{
@@ -174,3 +175,84 @@ input[type="search"]:focus,
   }
   
 /* footer css End */
+
+
+.caroselCss{
+
+  background-color: #e2e4e5
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  background-color: var(--mainColour);
+  width: 100%;
+}
+
+.searchDiv{
+  height: 400px;
+}
+
+
+/* card */
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* .card h3{
+  font-weight: 600;
+} */
+
+/* .card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+} */
+
+.card{
+  /* background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png); */
+  /* background-image: url('/images/ionic-native-card.png'); */
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+/* @media(max-width: 990px){
+  .card{
+    margin: 5px;
+  }
+}   */
+
+
+/* card end  */
+
+.child-rows{
+  /* margin: 0px !important; */
+  padding-left: 60px;
+}
+
+ @media(max-width: 990px){
+  .child-rows{
+    padding-left: 0px;
+    text-overflow: inherit;
+  }
+}   
+
+
+

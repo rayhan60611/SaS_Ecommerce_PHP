@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @include('master.styles')
-    <title>SaS Home</title>
+    <title>
+        @yield('title' , 'SaS Ecommerce')
+    </title>
+    <link rel="shortcut icon" href="{{asset('images/SaS.png')}}" />
 </head>
 
 <body>

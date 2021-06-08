@@ -32,7 +32,7 @@
                      <a href="#"><i class="fab fa-instagram"></i></a>
                  </div>
              </div>
-             <p class="copyright">Company Name © 2020-<script>
+             <p class="copyright">SaS Ecommerce © 2021-<script>
                  document.write(new Date().getFullYear())
                  </script>
              </p>
